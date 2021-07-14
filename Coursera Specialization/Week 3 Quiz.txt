@@ -1,0 +1,47 @@
+1
+
+2
+- Planning
+- Perception
+- Control
+
+3.
+All of the Above
+
+4.
+False
+
+5.
+Testing and Crash Mitigation
+Autonomy Design
+Well-organized software development Process
+
+6. 
+Returning car to a safe state
+Alerting first responders
+Data recording to Black box
+Securing Fuel pumps
+
+7. 
+Rear-End
+Intersection
+Road Departure
+Cross Walk (Try)
+
+8. 
+Analytical Safety
+
+9. 
+400
+
+10.
+
+
+12. 60
+
+13. 400
+
+14. detection of potentiall dangerous 
+
+15. ISO 26262 
+

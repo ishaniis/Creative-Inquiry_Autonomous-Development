@@ -1,0 +1,152 @@
+Waymo and GM Reports
+
+Waymo Safety Levels - 
+Behavioural Levels 
+- Handle the Traffic Levels
+
+Functional safety
+- Backup & Redundancy
+
+Crash Safety 
+as recommended by  NHTSA
+
+Operational safety
+- Interfaces are usable and convenient 
+- To have passenger have some level control 
+as that maintains vehicle safety
+
+Non-Collision Safety
+
+Identify Hazard Scenarios and Potential Migrations
+
+Hazard Assemsment Methods to define safety requirements
+
+- Preliminary Analysis
+- Fault Tree
+- Design Failure mode and Effect 
+
+Conduct extensive testing
+- Simulation testing (10 million miles of testing every day)
+- Closed Course Testing
+
+Focus on four most common crashes
+
+Real World Driving Tests
+- Start with Smaller fleet, expand steadily
+
+** Waymo dependent on OEM's for their own vehicle
+
+Safety Idealogy for GM 
+
+Addresses all 12 elements of NHTSA Safety Framework 
+Iterative Design Model 
+- Analyze 
+- Build
+- Simulate
+- Drive
+
+Control Car Production
+
+Comprehensive Risk Management - 
+Eliminating risks rather than just avoiding
+
+Safety Processes - 
+-- Deductive Analysis
+- Fault Tree 
+-- Inductive Analysis
+- Design & Process FMEA
+-- Exploratory Analysis
+- HAZOP (Hazard and Operational study)
+
+Safety Thresholds
+
+- Fail Safe's - Redundant Functionality
+- SOTIF Evaluation
+All critical functionalities is tested in both 
+known and unknown environments. 
+
+Types of Testing - 
+Performance 
+Fault Injection 
+Intrusive
+Durability
+Requirements Validations
+
+Analytical Safety 
+Ensuring system works in the theory 
+Detailed Analysis applicable to both space-programs and
+autonomous vehicles. 
+
+Data Driven Safety 
+- Safe only when system has demonstrated that
+it work without a fail, reduces accident by 10x
+
+Fault Tree:
+- used for preliminary analysis
+- top-down approach to analyze
+- boolean logic
+- decomposition continues until a 
+
+Car Crash 
+- Software Failure
+- - Bad Code
+- - Hacked
+- Hardware Failure
+- - Manufacturing Defects
+
+Probablisitic Fault Tree Analysis
+Use logic gates to construct fault tree
+
+Independent Events
+ - OR 
+ - AND
+When probability is evaluated in leaf nodes
+Applied on space-shape and aerospace programs
+
+FAILURE Mode's and effect analysis
+- Bottom Up process
+
+A. Failure Mode
+B. Effects Analysis
+
+Idea behind FMEA
+- to Categorize failure modes by priority
+-- Seriousness (S)
+-- Frequency (O)
+-- Easy to Detect (D)
+
+Quantify all the failure by priority number
+RPN = S * O * D
+
+FMEA was developed by Military and defense intially
+
+HAZOP 
+- A Qualitative process
+- Qualitative brainstorming
+- Applied to Complex Processes
+- Use 'guide words' to trigger brainstorming approach
+
+Functional Safety Process
+(V Level Framework)
+Initially we use - HARA (Hazard and Risk Assesment)
+
+
+SOTIF - 
+Failures due to performance limitations and misuse
+- Sensor Limitations
+- Algorithm Failures
+- User Misuse
+
+Designed for Level 0 - 2 Autonomy
+
+SOTIF is an extension of Functional sAfety Process
+Behavioural Risk Assessment
+It also uses HARA to prevent misuse
+HARA - 
+Used for unit testing
+
+Driver: 0.000375
+Algorithm: 0.00196
+
+Software Failure: 0.04
+Extreme Weather Conditions: 0.30

@@ -1,0 +1,60 @@
+Week - 3
+
+Safety in Autonomous Vehicle Design
+- Safety Concepts
+- Crash Reports
+- Industry Perspectives on Safety
+- Safety Frameworks 
+
+Waymo 
+Uber Self-Driving Car
+GM 
+Uber Crash (Tempe,AZ)
+
+Failure of the Perception Stack
+
+Harm
+
+Risk 
+- Probability
+- Severity
+
+Hazard - Threat to Safety! 
+
+Hazard Sources
+- Mechanical
+- Electrical
+- Hardware (Computing Hardware)
+- Software
+- Sensors (Bad or Noisy Sensor Data)
+- Behavioural (Incorrect Planning or the design was incorrect)
+- Fallback to Driver Fails
+- Cyber attack /hacked
+
+NHTSA Safety Recommendations for the Autonomous 
+Vehicle Research 
+12 Areas
+- System Engineering Approach to Safety 
+- - Well Planned Software Development Process
+
+12 can be categorized into two major
+- Autonomy Design
+- Testing and Crash Mitigation
+
+NHTSA recommends - 
+- ODD (Operational Design Domain)
+- OEDR (Object Event Detection and Response System)
+- Fallback
+- Traffic Laws are obeyed within the ODD
+- Think & protect about cyber malicious agents
+- HMI interface - To convey information well within 
+the timeline. 
+
+Testing & Crash Mitigation 
+- Comprehensive Testing Plan
+- - Closed Circuit
+- - Simulation
+- Crashworthiness
+- Post Crash Behaviour
+- Data Recording - Black Box Recorder
+- Consumer Education and Training - Awareness about the capability and limitations of the deployed autonomous systems

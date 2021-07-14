@@ -1,0 +1,49 @@
+1.
+Proprioceptive Sensors do not interact with the environment, whereas extereoceptive sensors do
+Exterioceptive sensors can determine obstacle size
+and distance away, whereas proprioceptive sensors cannot
+
+2.
+Sensors unaffected by Harsh Sunlight
+- Sonar
+- Radar
+
+
+3. 
+Synchronization is important to correct sensor fusion
+
+4. 
+83.33  (150*2)/3.6
+
+5.
+5625
+
+6.
+Nightime Image Collection
+- Lidar
+- Radar
+
+7.
+- Localization Map primarily used to estimate vehicle position, 
+whereas occupancy grid used to plan collission-free paths
+
+- An occupancy grid uses a dense representation of the 
+environment , whereas localization map does not need to be dense
+
+
+8.
+Vehicle State
+Planned Paths
+
+9.
+Role of the system supervisor
+- To ensure that the sensors are working correctly
+- To ensure that the maps update at the correct frequencies
+
+10. Planning to avoid a parked car in the ego vehicle's lane
+
+11. Parked Vehicle
+
+
+12. Detailed Roadmap (Contain Roadway speed limits)
+ 
