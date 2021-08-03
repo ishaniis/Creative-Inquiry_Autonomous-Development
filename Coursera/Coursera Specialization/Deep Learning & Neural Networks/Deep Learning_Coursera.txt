@@ -1,0 +1,62 @@
+
+Forward Propogation 
+Backward Propogation
+
+Generally: for loop over m training datasets
+But in neural network you want to train the complete set 
+
+- Forward Pause: Forward Propogation
+- Backward Pause: Backward Propogation
+
+Logistic Regression: An algorithm for binary classification. 
+Problem: Cat(1) vs Non Cat(0) 
+
+3RGB (64 X 64) X 3 (Red - Green - Blue)
+Pixel Intensity Values: 
+
+Binary Classification: 
+Logistic Regression is an algorithm for binary classfication. 
+
+Cat (1) or Non Cat (0) 
+Image is distributed in three separate matrices (RGB) 
+Pixels: 64 X 64
+So it'll have three 64 X 64 matrixes. 
+
+Matrixes into :-> Feature Vector
+Feature vector lists all the values of RGB individually
+Feature Vector: 64 X 64 X 3
+
+To unrow all the pixel intensity vector into Feature Vectors
+Feature Vector will take all the values of Red Pixels, Green Pixels, Blues Pixel intensity values of a given image. 
+Total Dimension: 64 X 64 X 64 X 3 = 12288
+X: Feature Vector
+N = Nx = 12288 (Dimension of the feature vector)
+
+(x,y) 
+x: Nx dimensional feature vector
+y: label 0 or 1 
+m training examples: { (x1,y1), (x2,y2) , (x3, y3), ......(xm , ym ) }
+
+X: 
+Rows: Number of Training Examples (m) 
+Columns: Nx 
+X.shape = (Nx, m)
+
+Y = [y(1) , y(2) , y(3) , ....., y(m) ]
+Y.shape = (1,m) 
+
+
+Logisitic Regression
+Given : Input vector (X) (Cat or non cat picture) 
+y^ = P(y=1|x) (y hat wants to tell the probability the given vector is a cat picture) 
+
+CostFunction: Overall average cost of the entire training set
+LossFunction: Loss over the single training set. 
+
+Loss Function: How your single training set is performing
+Cost Function: How your parameters (w) and (b) are performing over the entire
+training set. 
+The agenda is to find the optimal values of (w) and (b) which will eventually
+help to reduce the overall cost of the function. 
+
+
